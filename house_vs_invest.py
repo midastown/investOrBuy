@@ -2,18 +2,14 @@
 # Desctiption: Down payment & Savings Calculator
 # Name: Mehdi Hachimi
 # Date Created: 07/12/2014
-# Date Modified: 10/09/2019
+# Date Modified: 11/09/2019
 #####################################################################
 
 from tabulate import tabulate
 
-# getting the variable
+# first calculations and initializing variables 
 starting_salary = float(input("Enter your annual salary: "))
-
-# first calculations and initializing counters
-#semiRaiser = float(input("Enter your semi annual raise if known (otherwise type 0): "))
 total_cost = float(input("Enter the total cost of the house: "))
-
 portion_down_payement = float(input("Enter your initial down payment: "))
 rate_of_interest = float(input("What is the rate that you have been approved : "))
 months = input("For how many years : ") * 12
